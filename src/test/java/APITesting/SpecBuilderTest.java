@@ -56,6 +56,5 @@ public class SpecBuilderTest {
         System.out.println("Complete altered response  \n"+ responseString);
         String place_id_received= CommonUtilities.getRawToJson(responseString,"place_id");
 
-
     }
 }
