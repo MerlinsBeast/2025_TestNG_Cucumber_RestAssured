@@ -86,7 +86,7 @@ $(document).ready(function() {
     <tr class="info">
       <td>TestNG_RestAssured_Framework</td>
         <td>1</td>
-      <td>24 Feb 2025, 18:11</td>
+      <td>25 Feb 2025, 00:09</td>
     </tr>
   </tbody>
 </table>
@@ -108,8 +108,10 @@ $(document).ready(function() {
   <div class="row">
     <div class="col-md-10 col-md-offset-1">
       <div class="message">
-        <pre>net.masterthought.cucumber.ValidationException: No JSON report file was found!
-	at net.masterthought.cucumber.ReportParser.parseJsonFiles(ReportParser.java:61)
+        <pre>net.masterthought.cucumber.ValidationException: File 'C:\RestProject\demoSerializationSpecBuilder\TestNG_RestAssured_Framework\target\jsonReports\cucumber-reports.json' is not a valid Cucumber report! No content to map due to end-of-input
+ at [Source: (InputStreamReader); line: 1, column: 0]
+	at net.masterthought.cucumber.ReportParser.parseForFeature(ReportParser.java:104)
+	at net.masterthought.cucumber.ReportParser.parseJsonFiles(ReportParser.java:71)
 	at net.masterthought.cucumber.ReportBuilder.generateReports(ReportBuilder.java:97)
 	at net.masterthought.cucumber.CucumberReportGeneratorMojo.execute(CucumberReportGeneratorMojo.java:236)
 	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:137)
@@ -139,6 +141,7 @@ $(document).ready(function() {
       <div>Trying to generate report from following files. Make sure they are valid cucumber report files:</div>
       <div class="error-files">
         <pre>
+ C:\RestProject\demoSerializationSpecBuilder\TestNG_RestAssured_Framework\target\jsonReports\cucumber-reports.json
         </pre>
       </div>
     </div>
